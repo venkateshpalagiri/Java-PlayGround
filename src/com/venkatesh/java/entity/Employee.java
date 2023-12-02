@@ -4,6 +4,13 @@ public class Employee {
 	private long id;
 	private String name;
 	private String address;
+	
+	public Employee(long id, String name, String address) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.address = address;
+	}
 	public long getId() {
 		return id;
 	}
@@ -22,15 +29,11 @@ public class Employee {
 	public void setAddress(String address) {
 		this.address = address;
 	}
-	
+	@Override
+	public String toString() {
+		return "Employee [id=" + id + ", name=" + name + ", address=" + address + "]";
+	}
 	
 
 }
- class Main{
-	
-	public static void main(String[] args) {
-		Employee employee=new Employee();
-		employee.setId(2);
-		System.out.println(employee.getId());
-	}
-}
+
