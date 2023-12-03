@@ -27,6 +27,12 @@ public class ArrayListDemo {
 				arrayList.add(i);
 			}
 		}
+		//Appends the specified element to the end of this list.
+		arrayList.add(333);
+		
+		//Inserts the specified element at the specified position in thislist.
+		arrayList.add(0, 1000);
+		
 		System.out.println(arrayList);
 	}
 
