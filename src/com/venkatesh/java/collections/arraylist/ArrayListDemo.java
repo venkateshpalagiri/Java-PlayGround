@@ -19,5 +19,15 @@ public class ArrayListDemo {
 		arrayList.clear();
 		System.out.println(arrayList.toString());
 	}
+	
+	public void addEmployeeForLoop() {
+		ArrayList<Integer> arrayList=new ArrayList<Integer>();
+		for (int i=0;i<101;i++) {
+			if(i%5==0) {
+				arrayList.add(i);
+			}
+		}
+		System.out.println(arrayList);
+	}
 
 }
