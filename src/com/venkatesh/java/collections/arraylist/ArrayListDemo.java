@@ -7,11 +7,17 @@ import com.venkatesh.java.entity.Employee;
 
 public class ArrayListDemo {
 	
+	ArrayList<Employee> arrayList=new ArrayList();
+	
 	public void addEmployee(Employee employee) {
-		ArrayList<Employee> arrayList=new ArrayList();
 		arrayList.add(employee);
 		
 		System.out.println(employee.toString());
+	}
+	public void deleteEmployee(long employeeId) {
+		System.out.println(arrayList.toString());
+		arrayList.clear();
+		System.out.println(arrayList.toString());
 	}
 
 }

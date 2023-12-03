@@ -9,6 +9,7 @@ public class ArrayListMain {
 		ArrayListDemo arrayListDemo=new ArrayListDemo();
 		Employee employee=new Employee(1,"Venky","Canada");
 		arrayListDemo.addEmployee(employee);
+		arrayListDemo.deleteEmployee(1);
 
 	}
 
