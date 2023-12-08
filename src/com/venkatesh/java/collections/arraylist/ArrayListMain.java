@@ -11,6 +11,7 @@ public class ArrayListMain {
 		arrayListDemo.addEmployee(employee);
 		arrayListDemo.deleteEmployee(1);
 		arrayListDemo.addEmployeeForLoop();
+		arrayListDemo.typesOfAddingEmployeeObject();
 
 	}
 

@@ -8,6 +8,7 @@ import com.venkatesh.java.entity.Employee;
 public class ArrayListDemo {
 	
 	ArrayList<Employee> arrayList=new ArrayList();
+	ArrayList<Employee> arrayList1=new ArrayList();
 	
 	public void addEmployee(Employee employee) {
 		arrayList.add(employee);
@@ -34,6 +35,26 @@ public class ArrayListDemo {
 		arrayList.add(0, 1000);
 		
 		System.out.println(arrayList);
+	}
+	//Different ways to add Employee object to ArrayList
+	public void typesOfAddingEmployeeObject() {
+		//Type-1
+		Employee employee=new Employee(1, "emp1", "Toronto");
+		Employee employee2=new Employee(2, "emp2", "SCR");
+		Employee employee3=new Employee(3, "emp3", "London");
+		
+		arrayList.add(employee);
+		arrayList.add(employee2);
+		arrayList.add(employee3);
+		
+		System.out.println("Type-1 "+arrayList.toString());
+		
+		//Type-2
+		arrayList1.add(new Employee(4,"emp4","USA"));
+		arrayList1.add(new Employee(5, "emp5", "ENG"));
+		arrayList1.add(new Employee(6, "emp6", "IND"));
+		
+		System.out.println("Type-2 "+arrayList1.toString());
 	}
 
 }
