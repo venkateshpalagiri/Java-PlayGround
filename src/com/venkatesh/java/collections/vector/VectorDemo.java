@@ -1,9 +1,42 @@
 package com.venkatesh.java.collections.vector;
 
+import java.util.Collection;
+import java.util.List;
 import java.util.Vector;
 
-public class VectorDemo {
-	Vector<Integer> vector=new Vector<>();
+import com.venkatesh.java.collections.methods.CollectionMethods;
+import com.venkatesh.java.collections.util.EmployeeObjectCreation;
+import com.venkatesh.java.entity.Employee;
+
+public class VectorDemo extends EmployeeObjectCreation implements CollectionMethods {
+	Vector<Employee> vector=new Vector<>();
+	EmployeeObjectCreation employeeObjectCreation=new EmployeeObjectCreation();
+	
+
+	@Override
+	public void addEmployee(Collection<Employee> employeeList) {
+		
+		vector.addAll(employeeObjectCreation.employeeObjectCreation());
+		
+	}
+
+	@Override
+	public void deleteEmployee(long employeeId) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void addEmployeeWithForLoop() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void addEmployeeWithObject() {
+		// TODO Auto-generated method stub
+		
+	}
 	
 
 }
