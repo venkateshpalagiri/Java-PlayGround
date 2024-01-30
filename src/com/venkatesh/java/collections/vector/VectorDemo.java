@@ -12,13 +12,15 @@ public class VectorDemo extends EmployeeObjectCreation implements CollectionMeth
 	Vector<Employee> vector=new Vector<>();
 	EmployeeObjectCreation employeeObjectCreation=new EmployeeObjectCreation();
 	
-
-	@Override
-	public void addEmployee(Collection<Employee> employeeList) {
-		
-		vector.addAll(employeeObjectCreation.employeeObjectCreation());
+	public static void main(String[] args) {
 		
 	}
+//	@Override
+//	public void addEmployee(Collection<Employee> employeeList) {
+//		
+//		vector.addAll(employeeObjectCreation.employeeObjectCreation());
+		
+//	}
 
 	@Override
 	public void deleteEmployee(long employeeId) {
@@ -34,6 +36,12 @@ public class VectorDemo extends EmployeeObjectCreation implements CollectionMeth
 
 	@Override
 	public void addEmployeeWithObject() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void addEmployee(Employee employee) {
 		// TODO Auto-generated method stub
 		
 	}
