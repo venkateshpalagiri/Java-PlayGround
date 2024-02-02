@@ -1,7 +1,5 @@
 package com.venkatesh.java.collections.vector;
 
-import java.util.Collection;
-import java.util.List;
 import java.util.Vector;
 
 import com.venkatesh.java.collections.methods.CollectionMethods;
