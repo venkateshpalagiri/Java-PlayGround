@@ -1,4 +1,4 @@
-package com.venkatesh.java.oop.inheritance;
+package com.venkatesh.java.oops.inheritance;
 
 public class Child extends Parent {
 	@Override

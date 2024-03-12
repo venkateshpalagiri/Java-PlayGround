@@ -1,4 +1,4 @@
-package com.venkatesh.java.interfaces;
+package com.venkatesh.java.oop.interfaces;
 
 public interface Service {
 	
